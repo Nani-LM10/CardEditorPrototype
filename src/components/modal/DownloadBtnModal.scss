@@ -117,7 +117,7 @@
         .trainingLevel-in-card-sm {
           @extend .common-card-txt-css;
           @extend .cruyff-font;
-          bottom: 6%;
+          bottom: 8%;
           width: 100%;
           font-size: 0.7rem;
           text-align: center;
@@ -134,7 +134,7 @@
     .ovr-text-in-card {
             font-size: clamp(1.2rem, 1.8vw, 2.2rem)!important;
             margin-left: 0px!important;  
-            margin-top: 6px!important;  
+            margin-top: 8px!important;  
             padding: 0;
     }
     .position-text-in-card {
@@ -171,7 +171,7 @@
     .ovr-text-in-card {
             font-size: clamp(1.2rem, 1.8vw, 2.2rem)!important;
             margin-left: 0px!important;  
-            margin-top: 6px!important;  
+            margin-top: 8.5px!important;  
             padding: 0;
     }
     .position-text-in-card {
@@ -243,12 +243,12 @@
 @media (min-width: 450px) and (max-width: 600px) {
     .rank-img-sm {
           height: clamp(1.2rem,2.0vw,2.0rem) !important;
-          bottom: 8% !important;
+          bottom: 9.5% !important;
           right: 43.5% !important;
         }
     .trainingLevel-in-card-sm {
-          bottom: 8% !important;
-          font-size: 0.8rem !important;
+          bottom: 11% !important;
+          font-size: 0.7rem !important;
         }
 
     gap: 0.3rem;
@@ -259,6 +259,7 @@
     }
 
 }
+
 
 }
 
