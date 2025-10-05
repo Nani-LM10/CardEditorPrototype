@@ -109,9 +109,9 @@
         .rank-img-sm {
           z-index: 9;
           position: absolute;
-          height: 18%;
-          bottom: 2.5%;
-          right: 40.9%;
+          height: 15%;
+          bottom: 5.5%;
+          right: 44%;
         }
 
         .trainingLevel-in-card-sm {
@@ -119,7 +119,7 @@
           @extend .cruyff-font;
           bottom: 6%;
           width: 100%;
-          font-size: 1rem;
+          font-size: 0.7rem;
           text-align: center;
           font-weight: 550;
           color: black;
@@ -147,8 +147,19 @@
       bottom: 28% !important;
     }
     .flag-main-container-sm-scr {
-            bottom: 20% !important;
+      bottom: 20% !important;
     }
+
+    .rank-img-sm {
+          height: 12.5% !important;
+          bottom: 11% !important;
+          right: 43% !important;
+        }
+    .trainingLevel-in-card-sm {
+          bottom: 11% !important;
+          font-size: 0.6rem !important;
+        }
+
     gap: 0.3rem;
     .card-type-option {
       .Card-type-select {
@@ -156,12 +167,11 @@
       }
     }
   }
-@media (min-width: 401px) and (max-width: 600px) {
-    
+  @media (min-width: 401px) and (max-width: 600px) {
     .ovr-text-in-card {
             font-size: clamp(1.2rem, 1.8vw, 2.2rem)!important;
             margin-left: 0px!important;  
-            margin-top: 15px!important;  
+            margin-top: 6px!important;  
             padding: 0;
     }
     .position-text-in-card {
@@ -171,29 +181,89 @@
 
     }
     .player-name-in-card{
-      bottom: 26% !important;
+      bottom: 28% !important;
     }
     .flag-main-container-sm-scr {
-            bottom: 20% !important;
+      bottom: 20% !important;
     }
+
     .rank-img-sm {
-            height: 16% !important;
-            bottom: 4% !important;
-            right: 42% !important;
-          }
-    .trainingLevel-in-card-sm {
-          bottom: 8% !important;
-          width: 100% !important;
-          font-size: 0.6rem !important;
+          height: 12.5% !important;
+          bottom: 11% !important;
+          right: 43% !important;
         }
+    .trainingLevel-in-card-sm {
+          bottom: 11% !important;
+          font-size: 0.7rem !important;
+        }
+
+    gap: 0.3rem;
+    .card-type-option {
+      .Card-type-select {
+        padding: 0.3rem 0.5rem;
+      }
+    }
+    /*
+    .ovr-text-in-card {
+            font-size: clamp(1.1rem, 1.8vw, 2.0rem)!important;
+            margin-left: 0px!important;  
+            margin-top: 6px!important;  
+            padding: 0;
+    }
+    .position-text-in-card {
+            font-size: clamp(0.9rem, 1.1vw, 1.1rem);
+            margin-top: -8px!important;
+            margin-left: -2px!important;
+
+    }
+    .player-name-in-card{
+      bottom: 28% !important;
+    }
+    .flag-main-container-sm-scr {
+            bottom: 19.5% !important;
+    }
     gap: 0.4rem;
     .card-type-option {
       .Card-type-select {
         padding: 0.4rem 0.7rem;
       }
     }
+    .rank-img-sm {
+          height: 14% !important;
+          bottom: 6% !important;
+          right: 44.5%;
+        }
+    .trainingLevel-in-card-sm {
+          bottom: 6% !important;
+          font-size: 0.7rem !important;
+        }
   }
+        */
 }
+@media (min-width: 450px) and (max-width: 600px) {
+    .rank-img-sm {
+          height: clamp(1.2rem,2.0vw,2.0rem) !important;
+          bottom: 8% !important;
+          right: 43.5% !important;
+        }
+    .trainingLevel-in-card-sm {
+          bottom: 8% !important;
+          font-size: 0.8rem !important;
+        }
+
+    gap: 0.3rem;
+    .card-type-option {
+      .Card-type-select {
+        padding: 0.3rem 0.5rem;
+      }
+    }
+
+}
+
+}
+
+
+
 // ------------------------------------------
 // SELECTED STATE
 // ------------------------------------------
