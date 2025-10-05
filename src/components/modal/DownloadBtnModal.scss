@@ -177,10 +177,15 @@
             bottom: 20% !important;
     }
     .rank-img-sm {
-            height: 16%;
-            bottom: 4%;
-            right: 42%;
+            height: 16% !important;
+            bottom: 4% !important;
+            right: 42% !important;
           }
+    .trainingLevel-in-card-sm {
+          bottom: 8% !important;
+          width: 100% !important;
+          font-size: 0.6rem !important;
+        }
     gap: 0.4rem;
     .card-type-option {
       .Card-type-select {
